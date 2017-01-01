@@ -1,5 +1,9 @@
-var reverse = require("./reverse.js")
+"use strict";
+let reverse = require("./reverse.js")
+let should = require('chai').should();
 
-if (reverse("hello") !== "olleh") {
-  throw new Exception("hello test failed");
-}
+describe('reverse()', function() {
+  it('should return olleh when using hello', function() {
+    reverse("hello").should.equal("olleh");
+  });
+});

@@ -4,11 +4,15 @@
   "description": "Command line utility for reversing strings.",
   "main": "main.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "author": "Steven Xu",
   "license": "GPL-3.0",
   "dependencies": {
     "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
