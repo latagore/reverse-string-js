@@ -2,7 +2,7 @@
   "name": "reverse-string",
   "version": "1.0.0",
   "description": "Command line utility for reversing strings.",
-  "main": "reverse.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
